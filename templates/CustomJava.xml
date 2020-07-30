@@ -1,0 +1,20 @@
+<templateSet group="CustomJava">
+  <template name="pfs" value="private final static String $varName$  = &quot;$var$&quot;;" description="private final static" toReformat="false" toShortenFQNames="true">
+    <variable name="varName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="logger" value="private static final Logger LOGGER = LoggerFactory.getLogger($CLASS$.class);" description="日志LOGGER代码" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="className()" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="racon" value="@RequiredArgsConstructor(onConstructor = @__(@Autowired))" description="spring注入bean注解" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
