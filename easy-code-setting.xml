@@ -620,7 +620,7 @@
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="decimal(\(\d+,\d+\))?" />
-                    <option name="javaType" value="java.lang.Double" />
+                    <option name="javaType" value="java.math.BigDecimal" />
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="integer" />
