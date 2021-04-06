@@ -1,7 +1,7 @@
 <application>
   <component name="EasyCodeSetting">
     <option name="author" value="hzg" />
-    <option name="currTemplateGroupName" value="mybatis" />
+    <option name="currTemplateGroupName" value="mapper-plus" />
     <option name="globalConfigGroupMap">
       <map>
         <entry key="Default">
@@ -648,11 +648,11 @@
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="datetime" />
-                    <option name="javaType" value="java.util.Date" />
+                    <option name="javaType" value="java.time.LocalDateTime" />
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="timestamp" />
-                    <option name="javaType" value="java.util.Date" />
+                    <option name="javaType" value="java.time.LocalDateTime" />
                   </TypeMapper>
                   <TypeMapper>
                     <option name="columnType" value="boolean" />
@@ -681,6 +681,10 @@
                   <TypeMapper>
                     <option name="columnType" value="tinyint(\(\d+)\)? unsigned" />
                     <option name="javaType" value="java.lang.Integer" />
+                  </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="date" />
+                    <option name="javaType" value="java.lang.Object" />
                   </TypeMapper>
                 </list>
               </option>
