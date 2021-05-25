@@ -1,7 +1,7 @@
 <application>
   <component name="EasyCodeSetting">
     <option name="author" value="hzg" />
-    <option name="currTemplateGroupName" value="mapper-plus" />
+    <option name="currTemplateGroupName" value="mybatis" />
     <option name="globalConfigGroupMap">
       <map>
         <entry key="Default">
@@ -794,7 +794,7 @@
                     <option name="name" value="baseDto.java" />
                   </Template>
                   <Template>
-                    <option name="code" value="##引入宏定义&#10;$!define&#10;##设置回调&#10;$!callback.setFileName(&quot;BaseEntity.java&quot;)&#10;$!callback.setSavePath($tool.append($tableInfo.savePath, &quot;/common/entity&quot;))&#10;##使用宏定义设置包后缀&#10;#setPackageSuffix(&quot;common.entity&quot;)&#10;&#10;import java.time.LocalDateTime;&#10;import javax.persistence.Column;&#10;import lombok.Data;&#10;&#10;#classComment(&quot;实体基类&quot;) &#10;@Data&#10;public class BasePojo{&#10;&#10;    /**&#10;     * 是否删除(1为删除，0为未删除)&#10;     */&#10;    @Column(name = &quot;is_deleted&quot;)&#10;    private Boolean deleted = false;&#10;    &#10;    /** &#10;     * 创建者 &#10;     */&#10;    private String createBy;&#10;&#10;    /** &#10;     * 创建时间 &#10;     */&#10;    @JsonFormat(pattern = &quot;yyyy-MM-dd HH:mm:ss&quot;)&#10;    private LocalDateTime createTime;&#10;&#10;    /** &#10;     * 更新者 &#10;     */&#10;    private String updateBy;&#10;&#10;    /** &#10;     * 更新时间 &#10;     */&#10;    @JsonFormat(pattern = &quot;yyyy-MM-dd HH:mm:ss&quot;)&#10;    private LocalDateTime updateTime;&#10;}" />
+                    <option name="code" value="##引入宏定义&#10;$!define&#10;##设置回调&#10;$!callback.setFileName(&quot;BasePojo.java&quot;)&#10;$!callback.setSavePath($tool.append($tableInfo.savePath, &quot;/common/entity&quot;))&#10;##使用宏定义设置包后缀&#10;#setPackageSuffix(&quot;common.entity&quot;)&#10;&#10;import java.time.LocalDateTime;&#10;import javax.persistence.Column;&#10;import lombok.Data;&#10;&#10;#classComment(&quot;实体基类&quot;) &#10;@Data&#10;public class BasePojo{&#10;&#10;    /**&#10;     * 是否删除(1为删除，0为未删除)&#10;     */&#10;    @Column(name = &quot;is_deleted&quot;)&#10;    private Boolean deleted = false;&#10;    &#10;    /** &#10;     * 创建者 &#10;     */&#10;    private String createBy;&#10;&#10;    /** &#10;     * 创建时间 &#10;     */&#10;    @JsonFormat(pattern = &quot;yyyy-MM-dd HH:mm:ss&quot;)&#10;    private LocalDateTime createTime;&#10;&#10;    /** &#10;     * 更新者 &#10;     */&#10;    private String updateBy;&#10;&#10;    /** &#10;     * 更新时间 &#10;     */&#10;    @JsonFormat(pattern = &quot;yyyy-MM-dd HH:mm:ss&quot;)&#10;    private LocalDateTime updateTime;&#10;}" />
                     <option name="name" value="basePojo.java" />
                   </Template>
                   <Template>
