@@ -1,44 +1,6 @@
 <application>
   <component name="easyJavadoc">
-    <option name="appId" value="" />
-    <option name="author" value="wb-hzg956560" />
-    <option name="methodTemplateConfig">
-      <TemplateConfig>
-        <option name="customMap">
-          <map>
-            <entry key="$AUTHOR$">
-              <value>
-                <CustomValue>
-                  <option name="type" value="STRING" />
-                  <option name="value" value="author" />
-                </CustomValue>
-              </value>
-            </entry>
-            <entry key="$DATE$">
-              <value>
-                <CustomValue>
-                  <option name="type" value="STRING" />
-                  <option name="value" value="date" />
-                </CustomValue>
-              </value>
-            </entry>
-            <entry key="$SINCE$">
-              <value>
-                <CustomValue>
-                  <option name="type" value="STRING" />
-                  <option name="value" value="1.0.0" />
-                </CustomValue>
-              </value>
-            </entry>
-          </map>
-        </option>
-        <option name="isDefault" value="false" />
-        <option name="template" value="/**&#10; * $DOC$&#10; *&#10; * @since $SINCE$&#10; $PARAMS$&#10; * @return $RETURN$&#10; $THROWS$&#10; * @author $AUTHOR$&#10; * @date $DATE$&#10; */" />
-      </TemplateConfig>
-    </option>
-    <option name="secretId" value="" />
-    <option name="secretKey" value="" />
+    <option name="author" value="hzg" />
     <option name="simpleFieldDoc" value="true" />
-    <option name="token" value="" />
   </component>
 </application>
